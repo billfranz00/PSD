@@ -1,0 +1,255 @@
+* {
+	margin: 0 0;
+}
+
+/*================
+
+Navigation
+
+=================*/
+
+nav {
+	background-color: #4E98A3;
+	padding: 32.5px 0;
+	text-align: center;
+	height: 65px;
+}
+
+nav h2 {
+	font-family: 'Copse', serif;
+	font-size: 50px;
+	margin-left: 15%; 
+	float: left;
+	color: white;
+}
+
+nav ul {
+	font-family: sans-serif;
+	list-style: none;
+	float: right;
+	color: #B8DCEA;
+	margin-top: 20px;
+	margin-right: 7%;
+}
+
+nav li {
+	display: inline;
+	padding: 0 10px;
+	font-size: 22px;
+}
+
+nav a {
+	text-decoration: none;
+	color: #B8DCEA;;
+}
+
+nav a:hover {
+	color: white;
+}
+
+/*===================
+
+Header
+
+===================*/
+
+header {
+	background-image: url(http://i.imgur.com/nA5H9.jpg);
+	text-align: center;
+	height: 600px;
+	margin:0 auto;
+}
+
+header h1 {
+	font-family: sans-serif;
+	color: #E2E6F1;
+	font-size: 60px;
+	width: 50%;
+	margin: 0 auto;
+	padding: 140px 0 50px 0;
+}
+
+header a {
+	font-family: Verdana, sans-serif;
+	font-size: 35px;
+	color: #D5D7E3;
+	border: 2px solid #D5D7E3;
+	border-radius: 7.5px;
+	padding: 10px 65px;
+	text-decoration: none;
+	font-weight: normal;
+}
+
+header a:hover {
+	color: #42475B;
+	background-color: white;
+	border-color: white;
+}
+
+header p {
+	color: white;
+	font-size: 50px;
+	margin-top: 150px
+}
+
+header span {
+	color: #5F6678;
+}
+
+/*=====================
+
+Section 1
+
+=====================*/
+
+.section1 {
+	text-align: center;
+	height: 553px;
+	margin: 0 auto;
+	color: #68696D;
+}
+
+.section1 h3,
+.section1 p {
+	font-family: sans-serif, 'Open Sans Condensed', sans-serif;
+}
+
+.section1 h3 {
+	margin: 100px 250px 50px 250px;
+	font-size: 50px;
+	line-height: 1.5em;
+	font-weight: normal;
+}
+
+.section1 p {
+	margin: 50px 175px;
+	font-size: 20px;
+}
+
+.section1 img {
+	margin-top: 50px;
+}
+
+/*=====================
+
+Section 2
+
+======================*/
+
+.section2 {
+	height: 584px;
+	text-align: center;
+	margin: 0 auto;
+	background-color: #01D08A;
+	color: #E9D8DB;
+}
+
+.me,
+.namePosition {
+	margin: 100px 0;
+}
+
+.me {
+	height: 170px;
+	width: 170px;
+	border-radius: 50%;
+}
+
+.section2 div {
+	position: relative;
+	float: left;
+	left: 45%;
+}
+
+.quotes {
+	height: auto;
+	width: auto;
+	border-radius: 0;
+	border-color: #01D08A;
+	margin-top: 0px;
+}
+
+.namePosition {
+	font-size: 30px;
+	font-family: Arial;
+	padding-left: 15px;
+	text-align: left;
+}
+
+.namePosition h4 {
+	padding-left: 10px;
+}
+
+.section2 p {
+	margin: 50px 15%;
+	font-family: sans-serif;
+	font-size: 22px;
+	clear: both;
+	text-align: left;
+	line-height: 1.5em;
+}
+
+/*==================
+
+Section 3
+
+==================*/
+
+.section3 {
+	height: 650px;
+	background-image: url(file:///C:/Users/Bill/Desktop/CodifyProjects/PSDblackSea/img/hopewell2.png);
+	margin: 0 auto;
+}
+
+.section3 form {
+	position: relative;
+	height: 500px;
+	width: 500px;
+	border-radius: 50%;
+	border: 1px solid #E6E6E6;
+	background-color: white;
+	margin: auto auto;
+	overflow: hidden;
+	top: 65px;
+}
+
+.section3 fieldset {
+	border: 0;
+	margin: 0;
+	padding: 0;
+	margin-top: 125px;
+}
+
+.section3 fieldset input {
+	display: block;
+	padding: 5px 100px 5px 0;
+	margin: 15px auto;
+}
+
+#message {
+	padding: 5px 100px 50px 0; 
+}
+
+#check {
+	padding-left: 180px;
+	height: 100px; 
+	width: 130px;
+}
+
+/*========================
+
+Footer
+
+========================*/
+
+footer {
+	height: 50px;
+	text-align: center;
+	background-color: #01D08A;
+	color: white; 
+	margin: 0 auto;
+}
+
+footer p {
+	padding-top: 15px;
+}
