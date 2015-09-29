@@ -89,7 +89,7 @@ header a:hover {
 header p {
 	color: white;
 	font-size: 50px;
-	margin-top: 150px
+	margin-top: 150px;
 }
 
 header span {
@@ -252,4 +252,494 @@ footer {
 
 footer p {
 	padding-top: 15px;
+}
+
+/*======================
+
+Media Queries
+
+=======================*/
+
+@media (max-width: 1309px) {
+	nav h2 {
+		margin-left: 5%;
+	}
+	nav ul {
+		padding: 0;
+		margin-right: 5%;
+	}
+	nav li {
+		padding: 0 5px;
+	}
+	header h1 {
+		width: 75%;
+	}
+	.section1 h3 {
+		margin: 50px 10%;
+	}
+	.section1 img {
+		margin-top: 25px;
+		margin-right: 0;
+	}
+}
+
+@media (max-width: 919px) {
+	nav h2 {
+		float: none;
+		font-size: 30px;
+		margin-right: 5%;
+	}
+	nav ul {
+		float: none;
+	}
+	nav li {
+		padding: 0 5px;
+		font-size: 15px;
+	}
+	header {
+		height: 400px;
+	}
+	header h1 {
+		width: 75%;
+		font-size: 40px;
+		padding-top: 50px;
+	}
+	header a {
+		font-size: 20px;
+		border: 2px solid #D5D7E3;
+		border-radius: 5px;
+		padding: 7.5px 45px;
+	}
+	header p {
+		margin: 50px 0;
+	}
+
+	.section1 {
+		height: 350px;
+	}
+	.section1 h3 {
+		margin: 50px 8%;
+		font-size: 30px;
+	}
+	.section1 p {
+		margin: 20px 10%;
+		font-size: 15px;
+	}
+	.section1 img {
+		width: 350px;
+		height: auto;
+		margin-top: 15px;
+		margin-right: 0;
+	}
+
+	.section2 {
+	height: 350px;
+	text-align: center;
+	margin: 0 auto;
+	background-color: #01D08A;
+	color: #E9D8DB;
+	}
+	.me,
+	.namePosition {
+		margin: 50px 0;
+	}
+
+	.me {
+		height: 110px;
+		width: 110px;
+		border-radius: 50%;
+	}
+
+	.section2 div {
+		position: relative;
+		float: left;
+		left: 35%;
+	}
+
+	.quotes {
+		height: auto;
+		width: 100px;
+		border-radius: 0;
+		border-color: #01D08A;
+		margin-top: 0px;
+	}
+
+	.namePosition {
+		font-size: 20px;
+		font-family: Arial;
+		padding-left: 15px;
+		text-align: left;
+	}
+
+	.namePosition h4 {
+		padding-left: 10px;
+	}
+
+	.section2 p {
+		margin: 15px 10%;
+		font-family: sans-serif;
+		font-size: 15px;
+		clear: both;
+		text-align: left;
+		line-height: 1.25em;
+	}
+
+	.section3 {
+	height: 400px;
+	background-image: url(file:///C:/Users/Bill/Desktop/CodifyProjects/PSDblackSea/img/hopewell2.png);
+	margin: 0 auto;
+	}
+	.section3 form {
+		position: relative;
+		height: 300px;
+		width: 300px;
+		border-radius: 50%;
+		border: 1px solid #E6E6E6;
+		background-color: white;
+		margin: auto auto;
+		overflow: hidden;
+		top: 45px;
+	}
+	.section3 fieldset {
+		border: 0;
+		margin: 0;
+		padding: 0;
+		margin-top: 65px;
+	}
+
+	.section3 fieldset input {
+		display: block;
+		padding: 5px 75px 5px 0;
+		margin: 5px auto;
+	}
+
+	#message {
+		padding: 5px 75px 30px 0; 
+	}
+
+	#check {
+		padding-left: 36%;
+		height: 70px; 
+		width: auto;
+	}
+	footer {
+		height: 30px;
+		font-size: 12px;
+	}
+	footer p {
+		padding-top: 7.5px;
+	}
+}
+@media (max-width: 552px) {
+	nav {
+		padding: 15px 0;
+		height: 65px;
+	}
+	nav h2 {
+		float: none;
+		font-size: 30px;
+		margin-right: 5%;
+	}
+	nav ul {
+		float: none;
+	}
+	nav li {
+		padding: 0 1px;
+		font-size: 12px;
+	}
+	header {
+		height: 250px;
+	}
+	header h1 {
+		width: 90%;
+		font-size: 25px;
+		padding-top: 50px;
+	}
+	header a {
+		font-size: 15px;
+		border: 2px solid #D5D7E3;
+		border-radius: 5px;
+		padding: 5px 35px;
+	}
+	header p {
+		display: none;
+		margin: 50px 0;
+	}
+
+	.section1 {
+		height: 300px;
+	}
+	.section1 h3 {
+		margin: 50px 5%;
+		font-size: 25px;
+	}
+	.section1 p {
+		margin: 20px 5%;
+		font-size: 12px;
+	}
+	.section1 img {
+		display: none;
+		width: 350px;
+		height: auto;
+		margin-top: 15px;
+		margin-right: 0;
+	}
+
+	.section2 {
+	height: 300px;
+	text-align: center;
+	margin: 0 auto;
+	background-color: #01D08A;
+	color: #E9D8DB;
+	}
+	.me,
+	.namePosition {
+		margin: 25px 0;
+	}
+
+	.me {
+		height: 110px;
+		width: 110px;
+		border-radius: 50%;
+	}
+
+	.section2 div {
+		position: relative;
+		float: left;
+		left: 25%;
+	}
+
+	.quotes {
+		height: auto;
+		width: 100px;
+		border-radius: 0;
+		border-color: #01D08A;
+		margin-top: 0px;
+	}
+
+	.namePosition {
+		font-size: 20px;
+		font-family: Arial;
+		padding-left: 15px;
+		text-align: left;
+	}
+
+	.namePosition h4 {
+		padding-left: 10px;
+	}
+
+	.section2 p {
+		margin: 15px 5%;
+		font-family: sans-serif;
+		font-size: 12px;
+		clear: both;
+		text-align: left;
+		line-height: 1em;
+	}
+
+	.section3 {
+	height: 350px;
+	background-image: url(file:///C:/Users/Bill/Desktop/CodifyProjects/PSDblackSea/img/hopewell2.png);
+	margin: 0 auto;
+	}
+	.section3 form {
+		position: relative;
+		height: 275px;
+		width: 275px;
+		border-radius: 50%;
+		border: 1px solid #E6E6E6;
+		background-color: white;
+		margin: auto auto;
+		overflow: hidden;
+		top: 20px;
+	}
+	.section3 fieldset {
+		border: 0;
+		margin: 0;
+		padding: 0;
+		margin-top: 65px;
+	}
+
+	.section3 fieldset input {
+		display: block;
+		padding: 5px 75px 5px 0;
+		margin: 5px auto;
+	}
+
+	#message {
+		padding: 5px 75px 30px 0; 
+	}
+
+	#check {
+		padding-left: 36%;
+		height: 70px; 
+		width: auto;
+	}
+	footer {
+		height: 30px;
+		font-size: 12px;
+	}
+	footer p {
+		padding-top: 7.5px;
+	}
+}
+
+@media (max-width: 304px) {
+	nav {
+		padding: 5px 0;
+		height: 80px;
+	}
+	nav h2 {
+		float: none;
+		font-size: 20px;
+		margin-right: 5%;
+	}
+	nav ul {
+		float: none;
+		margin-top: 5px;
+	}
+	nav li {
+		padding: 0 1;
+		font-size: 10px;
+		display: block;
+	}
+	nav li.slash {
+		display: none;
+	}
+	header {
+		height: 150px;
+	}
+	header h1 {
+		width: 95%;
+		font-size: 20px;
+		padding-top: 25px;
+		padding-bottom: 20px;
+	}
+	header a {
+		font-size: 12px;
+		border: 2px solid #D5D7E3;
+		border-radius: 5px;
+		padding: 5px 25px;
+	}
+	header p {
+		display: none;
+		margin: 50px 0;
+	}
+
+	.section1 {
+		height: 225px;
+	}
+	.section1 h3 {
+		margin: 20px 2.5%;
+		font-size: 20px;
+	}
+	.section1 p {
+		margin: 10px 0.5%;
+		font-size: 10px;
+	}
+	.section1 img {
+		display: none;
+		width: 350px;
+		height: auto;
+		margin-top: 15px;
+		margin-right: 0;
+	}
+
+	.section2 {
+	height: 225px;
+	text-align: center;
+	margin: 0 auto;
+	background-color: #01D08A;
+	color: #E9D8DB;
+	}
+	.me,
+	.namePosition {
+		margin: 20px 0;
+	}
+
+	.me {
+		height: 75px;
+		width: 75px;
+		border-radius: 50%;
+	}
+
+	.section2 div {
+		position: relative;
+		float: left;
+		left: 20%;
+	}
+
+	.quotes {
+		height: auto;
+		width: 75px;
+		border-radius: 0;
+		border-color: #01D08A;
+		margin-top: 0px;
+	}
+
+	.namePosition {
+		font-size: 15px;
+		font-family: Arial;
+		padding-left: 15px;
+		text-align: left;
+	}
+
+	.namePosition h4 {
+		padding-left: 10px;
+	}
+
+	.section2 p {
+		margin: 10px 2.5%;
+		font-family: sans-serif;
+		font-size: 10px;
+		clear: both;
+		text-align: left;
+		line-height: 1.25em;
+	}
+
+	.section3 {
+	height: 250px;
+	background-image: url(file:///C:/Users/Bill/Desktop/CodifyProjects/PSDblackSea/img/hopewell2.png);
+	margin: 0 auto;
+	}
+	.section3 form {
+		position: relative;
+		height: 210px;
+		width: 210px;
+		border-radius: 50%;
+		border: 1px solid #E6E6E6;
+		background-color: white;
+		margin: auto auto;
+		overflow: hidden;
+		top: 15px;
+	}
+	.section3 fieldset {
+		border: 0;
+		margin: 0;
+		padding: 0;
+		margin-top: 45px;
+	}
+
+	.section3 fieldset input {
+		display: block;
+		padding: 5px 10px 2.5px 0;
+		margin: 5px auto;
+	}
+
+	#message {
+		padding: 5px 10px 13px 0; 
+	}
+
+	#check {
+		padding-left: 33%;
+		height: 50px; 
+		width: auto;
+	}
+	footer {
+		height: 25px;
+		font-size: 10px;
+	}
+	footer p {
+		padding-top: 5px;
+	}
 }
