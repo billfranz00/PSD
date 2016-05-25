@@ -57,7 +57,7 @@ header {
 	background-image: url(http://i.imgur.com/nA5H9.jpg);
 	text-align: center;
 	height: 600px;
-	margin:0 auto;
+	margin: 0 auto;
 }
 
 header h1 {
@@ -197,7 +197,7 @@ Section 3
 
 .section3 {
 	height: 650px;
-	background-image: url(file:///C:/Users/Bill/Desktop/CodifyProjects/PSDblackSea/img/hopewell2.png);
+	background-image: url(../img/hopewell2.png);
 	margin: 0 auto;
 }
 
@@ -386,7 +386,7 @@ Media Queries
 
 	.section3 {
 	height: 400px;
-	background-image: url(file:///C:/Users/Bill/Desktop/CodifyProjects/PSDblackSea/img/hopewell2.png);
+	background-image: url(../img/hopewell2.png);
 	margin: 0 auto;
 	}
 	.section3 form {
@@ -539,7 +539,7 @@ Media Queries
 
 	.section3 {
 	height: 350px;
-	background-image: url(file:///C:/Users/Bill/Desktop/CodifyProjects/PSDblackSea/img/hopewell2.png);
+	background-image: url(../img/hopewell2.png);
 	margin: 0 auto;
 	}
 	.section3 form {
@@ -699,7 +699,7 @@ Media Queries
 
 	.section3 {
 	height: 250px;
-	background-image: url(file:///C:/Users/Bill/Desktop/CodifyProjects/PSDblackSea/img/hopewell2.png);
+	background-image: url(../img/hopewell2.png);
 	margin: 0 auto;
 	}
 	.section3 form {
